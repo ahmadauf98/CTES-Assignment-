@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SECTION B</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="QuestionStyle.css">
+       <!-- Include external CSS. -->
+
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
+       
+       <!-- Include Editor style. -->
+       <link href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.3/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+       <link href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.3/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" href="timer.css">
+       <link rel="stylesheet" href="checkbox.css">
+  </head>
+
+<!-- Sidebar -->
+  <div class="pagination" style="width:15%; float: right; ">
+    <a href="#1" class="btn"><p>1</p></a>
+    <a href="#2" class="btn"><p>2</p></a>
+    <a href="#3" class="btn"><p>3</p></a>
+    <a href="#4" class="btn"><p>4</p></a>
+    <a href="#5" class="btn"><p>5</p></a>
+    <a href="#6" class="btn"><p>6</p></a>
+    <a href="#7" class="btn"><p>7</p></a>
+    <a href="#8" class="btn"><p>8</p></a>
+    <a href="#9" class="btn"><p>9</p></a>
+    <a href="#10" class="btn"><p>10</p></a>
+    </div>
+<!-- end of side bar -->
+
+<!-- for the timer -->
+<div id="clockdiv" class="pagination" style="width:15%; float: left;">
+   
+    <div>
+      <span class="minutes"></span>
+      <div class="smalltext">Minutes</div>
+    </div>
+    <div>
+      <span class="seconds"></span>
+      <div class="smalltext">Seconds</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <!-- the end for the timer-->
+
+  <body>
+    <h1 style="text-align: center;" >SECTION B : CRITICAL THINKING SKILLS ASSESSMENT</h1>
+
+      <div class="question-form" id="1">
+<form>
+    <div>
+    <h4><center><u>QUESTION 1</u></center></h4>
+    <p>There was a power failure in the house. Mrs. Lim lighted up 10 candles. After sometime, four candles were blown out by the wind. Later, another three candles were blown out. How many candles remained on the following day?</p>
+     <img id="img" src="q1.png" alt="Question 1 Picture" width="600px">
+    <h4><center>Answer:</center></h4>
+      <input type="number" name="answer">
+      <h7><b><i><br>*Numbers only</i></b></h7>
+  </div></div ><br><br>
+ 
+    <div class="question-form" id="2">
+    <div >
+    <h4><center><u>QUESTION 2</u></center></h4>
+    <p>There are 20 people who love to solve puzzles. They met to solve puzzles together. Among them, three are friends (i.e., already known each other). During their first face-to-face meeting, they shook hands with each other (with unknowns only) except for the three who were already known to each other.
+        <br><br>
+        Question: How many handshaking took place in this meeting?
+    </p>
+     <img id="img" src="q2.png" alt="Question 2 Picture" width="600px">
+    <h4><center>Answer:</center></h4>
+    <input type="number" name="answer">
+	<h7><b><i><br>*Numbers only</i></b></h7>
+  </div></div><br><br>
+
+    <div class="question-form">
+    <div id="3">
+    <h4><center><u>QUESTION 3</u></center></h4>
+    <p>There are altogether 100 birds and turtles. The total number of legs is 276. <br>
+      Question: How many birds and turtles are there, respectively?
+      <br><br>
+          </p>
+     <img id="img" src="q3.jpg" alt="Question 3 Picture" width="550px">
+    <h4><center>Answer:</center></h4>
+          <p>Number of birds:  <input type="number" name="answer"> <br><br>
+		  Number of turtles:   <input type="number" name="answer"></p>
+		  <h7><b><i>*Numbers only</i></b></h7>
+    </div></div><br><br>
+
+    <div class="question-form">
+    <div id="4">
+    <h4><center><u>QUESTION 4</u></center></h4>
+    <p> Move the following numbers to make them equal, mathematically. Write your answer below.</p>
+     <img id="img" src="q4.jpg" alt="Question 4 Picture" width="600px">
+    <h4><center>Answer:</center></h4>
+        <p> <input type="number" name="answer"> =  <input type="number" name="answer"> </p>
+     <h7><b><i>*Numbers only</i></b></h7>
+  </div></div><br><br>
+
+    <div class="question-form">
+    <div id="5">
+    <h4><center><u> QUESTION 5 </u></center></h4>
+    <p>There are four (4) students: A, B, C, and D. They are discussing about their academic results. <br> A says: If I get distinction, then B also gets distinction. <br> B says: If I get distinction, then C also gets distinction.<br> C says: If I get distinction, then D also gets distinction.<br> All the four students are telling the truth. However, among these four students, only two students get distinctions.<br> Who are the two students who got distinctions?</p>
+     <img src="q5.png" alt="Question 5 Picture" width="300px">
+    <h4><center>Answer:</center></h4>
+
+<h4><center>Choose 2 only</center></h4>
+<label class="customcheckbox">A
+  <input type="checkbox">
+  <span class="custombox"></span>
+</label>
+<label class="customcheckbox">B
+  <input type="checkbox">
+  <span class="custombox"></span>
+</label>
+<label class="customcheckbox">C
+  <input type="checkbox">
+  <span class="custombox"></span>
+</label>
+<label class="customcheckbox">D
+  <input type="checkbox">
+  <span class="custombox"></span>
+</label>
+  </div></div><br><br>
+
+    <div class="question-form">
+    <div id="6">
+    <h4><center><u>Question 6</u></center></h4>
+    <p>There are three (3) boxes: a gold box, a silver box, and a red box. On top of each of the boxes, there is a sentence. In one of these three boxes, only one box contains a photo. The sentence on the gold box says: The photo is not inside the silver box. The sentence on the silver box says: The photo is not inside this box. The sentence on the red box says: The photo is inside this box. Among these three sentences, at least one sentence is true, and at least one sentence is false. 
+      <br><br>
+  Question: Which box contains the photo?</p>
+     <img src="q6.jpg" alt="Question 6 Picture" width="350px">
+    <h4><center>Answer:</center></h4>
+
+<label class="radiobut">Gold Box
+  <input type="radio" name="radio">
+  <span class="circlestyle"></span>
+</label>
+<label class="radiobut">Silver Box
+  <input type="radio" name="radio">
+  <span class="circlestyle"></span>
+</label>
+<label class="radiobut">Red Box
+  <input type="radio" name="radio">
+  <span class="circlestyle"></span>
+
+  </div></div><br><br>
+
+    <div class="question-form">
+    <div id="7">
+    <h4><center><u> QUESTION 7</u></center></h4>
+    <p>Two thin wooden sticks take one (1) hour to complete burning, respectively. What is the method you will use to measure 15 minutes of burning time? Describe briefly and draw diagram(s) to illustrate your answer.</p>
+     <img src="q7.png" alt="Question 7 Picture" width="350px">
+    <h4><center>Answer:</center></h4>
+
+     <textarea></textarea>
+ 
+    <!-- Include external JS libs. -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
+ 
+    <!-- Include Editor JS files. -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/froala-editor@2.9.3/js/froala_editor.pkgd.min.js"></script>
+ 
+    <!-- Initialize the editor. -->
+    <script> $(function() { $('textarea').froalaEditor() }); </script>
+  </div></div><br><br>
+
+    <div class="question-form">
+    <div id="8">
+    <h4><center><u>QUESTION 8</u></center></h4>
+    <p>There are four people: A, B, C, and D. They are predicting the future career for each other: dancer, fortune teller, novelist, and TV host.  Based on their statements given below, only the statement given by the fortune teller is true.<br><br>
+      A: B will absolutely never become a dancer.
+      B: C will become a fortune teller.
+      C: D will never become a TV host.
+      D: I’ll marry Mr. P <br><br>
+      Question: What are the respective career of A, B, C, and D, and will D marry Mr. P? <br>
+      Answer: <br><br>
+      The career of <br>
+	  A: <input type="text" name="A"> <br><br>
+	  B: <input type="text" name="B"> <br><br>
+	  C: <input type="text" name="C"> <br><br>
+      D: <input type="text" name="D"> 
+       <br><br>
+     	<label class="radiobut">D will marry Mr. P
+  		<input type="radio" name="radio">
+  		<span class="circlestyle"></span>
+		</label>
+		<label class="radiobut">D will NOT marry Mr. P
+  		<input type="radio" name="radio">
+  		<span class="circlestyle"></span>
+		</label>
+    </div></div><br><br>
+
+    <div class="question-form">
+    <div id="9">
+    <h4><center><u>QUESTION 9</u></center></h4>
+    <p>There are two brothers, one of whom is fat and the other is thin. The elder brother will tell the truth in the morning, and will tell lie in the afternoon. The younger brother will be the reverse (i.e., tells lie in the morning, and tells the truth in the afternoon).<br><br>
+      One man asked these two brothers: Who is the elder brother?
+      The fat one said: I’m the elder brother.
+      The thin one also said: I’m the elder brother.
+      The man asked again: What is the time now?
+      The fat one said: Almost noon.
+      The thin one also said: Already noon.
+      <br><br>
+      Question: What is the time now (morning or afternoon), and who is the elder brother (the fat one or the thin one)?</p>
+     <img src="q9.jpg" alt="Question 9 Picture" width="400px">
+    <h4><center>Answer: <br><br>
+	Time now is :- <br>
+      <label class="radiobut">Morning
+  		<input type="radio" name="radio">
+  		<span class="circlestyle"></span>
+		</label>
+		<label class="radiobut">Afternoon
+  		<input type="radio" name="radio">
+  		<span class="circlestyle"></span>
+		</label>
+		<br>
+	Elder brother :- <br>
+	  <label class="radiobut">Fat one
+  		<input type="radio" name="radio">
+  		<span class="circlestyle"></span>
+		</label>
+		<label class="radiobut">Thin one
+  		<input type="radio" name="radio">
+  		<span class="circlestyle"></span>
+		</label>
+	  </center></h4>
+    
+  </div></div><br><br>
+
+    <div class="question-form">
+    <div id="10">
+    <h4><center><u>QUESTION 10</u></center></h4>
+    <p>In a room, there are two men. One tells the truth and the other tells lie. You’re in the room, and you want to leave the room from one of the exits (doors). There is a lion behind one of the exit. The other exit is safe. What is the question (ONE question ONLY) you will ask one of the men to know which is the safe exit?</p>
+     <img src="q10.jpg" alt="Question 10 Picture" width="400px">
+    <h4><center>Answer:</center></h4>
+
+     <textarea></textarea>
+ 
+    <!-- Include external JS libs. -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
+ 
+    <!-- Include Editor JS files. -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/froala-editor@2.9.3/js/froala_editor.pkgd.min.js"></script>
+ 
+    <!-- Initialize the editor. -->
+    <script> $(function() { $('textarea').froalaEditor() }); </script>
+  </div></div><br>
+
+</form>
+  </div>
+
+  <a href="ty.html" class="button-3d" style="float: center;">Submit</a>
+  
+  <a href="#" id="scroll" style="display: none;"><span></span></a>
+  <script src="ScrollButton.js"></script>   
+  </body>
+  </html>

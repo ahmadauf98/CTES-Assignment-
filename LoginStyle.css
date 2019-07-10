@@ -1,0 +1,57 @@
+/* CTS.html Design */
+body{
+  height: 100%;
+}
+
+body{
+background-image: url(LoginDesign.png);
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Login Page Design */
+.modal-dialog{
+text-align: center;
+margin-top: 12.5%;
+}
+.error {color: #FF0000;}
+.modal-content{
+  background-color: white;
+}
+
+.btn-link{
+  color:#003353;
+}
+.btnbtn-link{
+  color:#003353;
+}
+.modal-heading h2{
+  color:#003353;
+    font-family: "Arial Black", "Gadget", sans-serif;
+    font-size: 30px;
+}
+
+.modal-heading p{
+  color:#003353;
+    font-family: "Arial Black", "Gadget", sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}

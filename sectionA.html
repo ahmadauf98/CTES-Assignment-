@@ -1,0 +1,140 @@
+﻿<html>
+	<head>
+	<title>Section 1A</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel = "stylesheet" type="text/css" href="SectionAStyles.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+	
+	<body>
+ 
+	<h1 id="title">SECTION A : RESPONDENT PROFILE</h1>
+    <div id="form-outer">
+  <p id="description">
+		<b>Instruction: Please tick the boxes that are applicable to you or specify otherwise.</b>
+  </p>
+  <form id="survey-form" method="POST" action="">
+
+	<!-- Registration Question -->
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" name="username" for="MatricNumber">1.Registration/ Matriculation number: </label>
+      </div>
+      <div class="rightTab">
+			<input type="text" name="username" class="form-control" placeholder="eg:WIF160007" required>
+      </div>
+	</div>
+	
+	<!-- Name Of University Question -->
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" name="university" for="University">2.Name of University: </label>
+      </div>
+      <div class="rightTab">
+			<input type="text" name="university" class="form-control" placeholder="eg:University Of Malaya" required>
+      </div>
+	</div>
+	
+	<!-- Year Of Study Question -->
+    <div class="rowTab">
+      <div class="labels">
+        <label id="name-label" name="year" for="YearOfStudy">3.Year Of Study: </label>
+      </div>
+      <div class="rightTab">
+			<input type="text" name="year" class="form-control" placeholder="eg:first,second,third,etc" required>
+      </div>
+	</div>
+
+	<!-- Gender Question -->
+    <div class="rowTab">
+      <div class="labels">
+        <label name="gender" for="currentPos">4.Gender:</label>
+      </div>
+      <div class="rightTab">
+			<select class="custom-select" required>
+      <option disabled value>Select an option</option>
+	  <option name="gender" value="Male">Male</option>
+	  <option name="gender" value="Female">Female</option>
+    </select>
+	  </div>
+	</div>
+
+	<!-- Age Group Question -->
+	<div class="rowTab">
+			<div class="labels">
+			  <label name="age_group" for="currentPos">5.Age Group:</label>
+			</div>
+			<div class="rightTab">
+					<select class="custom-select" required>
+			<option disabled value>Select an option</option>
+			<option name="age_group" value="Below 18 years">Below 18 years</option>
+			<option name="age_group" value="18-21 Years">18-21 Years</option>
+			<option name="age_group" value="22-25 Years">22-25 Years</option>
+			<option name="age_group" value="Above 25 Years">Above 25 Years</option>
+		  </select>
+			</div>
+		  </div>
+
+    <!-- Ethic Group Question -->
+    <div class="rowTab">
+      <div class="label">
+        <label for="userRating">6.Ethnic Group: </label>
+      </div>
+      <div class="rightTab">
+			<div class="custom-control custom-radio">
+					<input type="radio" id="customRadio1" name="ethnicity" class="custom-control-input">
+					<label class="custom-control-label" for="customRadio1">Malay</label>
+				  </div>
+				  <div class="custom-control custom-radio">
+					<input type="radio" id="customRadio2" name="ethnicity" class="custom-control-input">
+					<label class="custom-control-label" for="customRadio2">Chinese</label>
+				  </div>
+				  <div class="custom-control custom-radio">
+						<input type="radio" id="customRadio3" name="ethnicity" class="custom-control-input">
+						<label class="custom-control-label" for="customRadio3">Indian</label>
+					  </div>
+					  <div class="custom-control custom-radio">
+							<input type="radio" id="customRadio4" name="ethnicity" class="custom-control-input">
+							<label class="custom-control-label" for="customRadio4">Other, please specify:</label>
+							<input type="text" class="form-control">
+						  </div>
+      </div>
+	</div>
+	
+	 <!-- Nationality Group Question -->
+	 <div class="rowTab">
+			<div class="label">
+			  <label for="userRating">7.Nationality: </label>
+			</div>
+			<div class="rightTab">
+							<div class="custom-control custom-radio">
+									<input type="radio" id="customRadio5" name="nationality" class="custom-control-input">
+									<label class="custom-control-label" for="customRadio5">Malaysian</label>
+								  </div>
+								  <div class="custom-control custom-radio">
+									<input type="radio" id="customRadio6" name="nationality" class="custom-control-input">
+									<label class="custom-control-label" for="customRadio6">Chinese(China)</label>
+								  </div>
+								  <div class="custom-control custom-radio">
+										<input type="radio" id="customRadio7" name="nationality" class="custom-control-input">
+										<label class="custom-control-label" for="customRadio7">Indonesia</label>
+									  </div><div class="custom-control custom-radio">
+											<input type="radio" id="customRadio8" name="nationality" class="custom-control-input">
+											<label class="custom-control-label" for="customRadio8">Pakistani</label>
+										  </div>
+									  <div class="custom-control custom-radio">
+											<input type="radio" id="customRadio9" name="nationality" class="custom-control-input">
+											<label class="custom-control-label" for="customRadio9">Other, please specify:</label>
+											<input type="text" class="form-control">
+										  </div>
+					  
+			</div>
+		  </div>
+			<a href="sectionA2.php"><button class="submit" id="submit" name="submit">Next</button></a>
+  </form>
+</div>
+	
+</body>
+</html>

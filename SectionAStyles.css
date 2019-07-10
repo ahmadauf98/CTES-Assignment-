@@ -1,0 +1,154 @@
+body{
+  height: 100%;
+}
+
+body{
+background-image: url(SectionADesign.png);
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+font-family: monospace;
+font-size: 16px;
+}
+
+/* Section A and 2A Design */
+h1{
+  margin: 5% 0% 2.5% 0%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+p{
+  font-size: 19px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+#form-outer {
+  background-color: rgb(250, 250, 250);
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 75%;
+  max-width: 900px;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.labels {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: middle;
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.label {
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  padding: 5px;
+  vertical-align: top;
+  margin-top: 10px;
+  font-family: monospace;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.rightTab {
+  display: inline-block;
+  text-align: left;
+  width: 48%;
+}
+
+.input-field {
+  height: 20px;
+  width: 280px;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+#userAge {
+  width: 40px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+.submit {
+  background-color: white;
+  border-radius: 4px;
+  color: #003353;
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 40px;
+  width: 96px;
+  margin: 5% 0% 5% 0%;
+  border: 0px solid;
+  float: right;
+}
+
+.submit:hover{
+  background-color: transparent;
+  border-color: white;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  height: 40px;
+  width: 96px;
+  margin: 5% 0% 5% 0%;
+  border: 2px solid;
+  float: right;
+}
+
+.dropdown {
+  height: 35px;
+  width: 140px;
+  padding: 5px;
+  margin: 10px;  
+  margin-top: 15px;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+
+.radio {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.rowTab{
+  margin-bottom: 15px;
+}
+
+
+.Results{
+  text-align: left;
+  font-weight: bold;
+}
+
+.btn-lg{
+  background-color: #8c52ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 10px;
+  border: 0px solid;
+  margin-top: 10%;
+}

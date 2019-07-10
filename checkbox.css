@@ -1,0 +1,130 @@
+.customcheckbox {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.customcheckbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.custombox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border:solid;
+}
+
+/* On mouse-over, add a grey background color */
+.customcheckbox:hover input ~ .custombox {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.customcheckbox input:checked ~ .custombox {
+  background-color: #2196F3;
+}
+
+/* Create the custombox/indicator (hidden when not checked) */
+.custombox:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the custombox when checked */
+.customcheckbox input:checked ~ .custombox:after {
+  display: block;
+}
+
+/* Style the custombox/indicator */
+.customcheckbox .custombox:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+/* The radiobut */
+.radiobut {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radiobut input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.circlestyle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  border:solid;
+}
+
+/* On mouse-over, add a grey background color */
+.radiobut:hover input ~ .circlestyle {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiobut input:checked ~ .circlestyle {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.circlestyle:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radiobut input:checked ~ .circlestyle:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radiobut .circlestyle:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
